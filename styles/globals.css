@@ -13,6 +13,7 @@ a {
 
 * {
   box-sizing: border-box;
+  position: relative;
 }
 
 header{
@@ -20,14 +21,23 @@ header{
   height: 60px;
   position: fixed;
   top: 0;
-  background-color: aqua;
+  padding: 0 15px;
 }
+main{
+  width: 100vw;
+  height: calc(100vh - 60px);
+  top: 60px;
+  background-color: red;
+
+
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: #025;
   }
 }
