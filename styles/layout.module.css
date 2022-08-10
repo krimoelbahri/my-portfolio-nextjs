@@ -1,7 +1,19 @@
-.hContainer{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.hContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav {
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.nav:hover {
+	background-color: rgb(51, 85, 136);
 }

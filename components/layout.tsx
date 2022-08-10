@@ -29,16 +29,16 @@ function Header() {
 					</a>
 				</Link>
 				<Link href={"/"}>
-					<a>Home</a>
+					<a className={styles.nav}>Home</a>
 				</Link>
 				<Link href={"/about"}>
-					<a>About</a>
+					<a className={styles.nav}>About</a>
 				</Link>
 				<Link href={"/portfolio"}>
-					<a>portfolio</a>
+					<a className={styles.nav}>portfolio</a>
 				</Link>
 				<Link href={"/contact"}>
-					<a>contact</a>
+					<a className={styles.nav}>contact</a>
 				</Link>
 			</div>
 		</header>
