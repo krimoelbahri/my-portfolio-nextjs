@@ -13,6 +13,23 @@ a {
 
 * {
   box-sizing: border-box;
+  position: relative;
+}
+
+header{
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  padding: 0 15px;
+}
+main{
+  width: 100vw;
+  height: calc(100vh - 60px);
+  top: 60px;
+  background-color: red;
+
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +38,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #025;
   }
 }

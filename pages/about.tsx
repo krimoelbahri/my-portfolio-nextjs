@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Guezlane Karim</title>
 				<link rel='icon' href='/favicon.ico' />
@@ -13,4 +12,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default About;
