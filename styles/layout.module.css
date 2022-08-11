@@ -13,7 +13,9 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	transition: all 200ms;
 }
 .nav:hover {
 	background-color: rgb(51, 85, 136);
+	transform: translateY(-5px);
 }
