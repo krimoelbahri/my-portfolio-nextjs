@@ -13,9 +13,13 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	text-decoration: none;
 	transition: all 200ms;
 }
 .nav:hover {
-	background-color: rgb(51, 85, 136);
+	box-shadow: var(--shadow-3);
 	transform: translateY(-5px);
+}
+.nav:visited {
+	color: inherit;
 }

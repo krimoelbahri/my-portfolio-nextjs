@@ -7,8 +7,8 @@ const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.greeting}>
-				<h1>Hi, I am Karim Guezlane</h1>
-				<h1>Full Stack Web Developer</h1>
+				<h2>Hi, I am Karim Guezlane</h2>
+				<h2>Full Stack Web Developer</h2>
 			</div>
 			<div className={styles.space}></div>
 			<div className={styles.buttons}>

@@ -1,0 +1,13 @@
+.button {
+	height: 40px;
+	padding-inline: var(--size-3);
+	cursor: pointer;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	color: #025;
+}
+.title {
+	font-size: var(--font-size-1);
+	font-weight: var(--font-weight-4);
+}
