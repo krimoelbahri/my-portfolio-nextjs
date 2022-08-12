@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
+import Slider from "../components/Slider";
 
 const Portfolio: NextPage = () => {
-	return <div></div>;
+	return <Slider />;
 };
 
 export default Portfolio;
